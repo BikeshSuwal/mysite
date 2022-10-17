@@ -1,17 +1,16 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
-import {Header} from './MyComponents/header';
-import {Footer} from './MyComponents/footer';
-import Body from './MyComponents/body';
-
-
+import { Header } from "./MyComponents/header";
+import { Footer } from "./MyComponents/footer";
+import Body from "./MyComponents/body";
 
 function App() {
   return (
     <>
-      <Header/>
-      <Body/>
-      <Footer/>
+      <Header />
+      <div>heloooooooo</div>
+      <Body />
+      <Footer />
     </>
   );
 }
