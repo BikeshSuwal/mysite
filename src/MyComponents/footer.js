@@ -12,6 +12,7 @@ export const Footer = () => {
             href="https://www.facebook.com/bksh.suwal/"
             className="fa fa-facebook"
             target="_blank"
+            rel="noopener noreferrer"
           ></a>
           <a
             href="https://www.snapchat.com/add/bksh_suwal9680?share_id=ciEpa0j6N4g&locale=en-US"

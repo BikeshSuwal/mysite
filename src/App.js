@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import React from "react";
 
 import { Header } from "./MyComponents/header";
 import { Footer } from "./MyComponents/footer";
@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header />
-      <div>heloooooooo</div>
       <Body />
       <Footer />
     </>

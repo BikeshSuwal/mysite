@@ -1,5 +1,5 @@
 import React from "react";
-
+import TextConvert from "./TextConvert";
 import Todos from "./todos";
 
 export default function Body() {
@@ -17,7 +17,12 @@ export default function Body() {
           </div>
         </div>
         <div>
-          <Todos />
+          <div className="container">
+            <TextConvert />
+          </div>
+          <div className="container">
+            <Todos />
+          </div>
         </div>
 
         <div className="gallery">
