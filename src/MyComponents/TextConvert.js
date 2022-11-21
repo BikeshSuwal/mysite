@@ -4,14 +4,16 @@ export default function TextConvert() {
   //   let Original = text;
 
   const ToUpper = () => {
-    console.log("ToUpper clicked");
     let newText = text.toUpperCase();
     setText(newText);
   };
   const ToLower = () => {
-    console.log("ToLower clicked");
     let newText = text.toLowerCase();
     setText(newText);
+  };
+  const Cleartext = () => {
+    let newText = text.toLowerCase();
+    setText("");
   };
 
   const handleOnChange = (event) => {
@@ -38,6 +40,9 @@ export default function TextConvert() {
         </button>
         <button className="btn convertButton" onClick={ToLower}>
           To lowercase
+        </button>
+        <button className="btn convertButton" onClick={Cleartext}>
+          Clear text
         </button>
       </div>
     </>

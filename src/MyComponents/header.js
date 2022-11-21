@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ToggleButton from "./ToggleButton";
 
 export const Header = () => {
@@ -13,16 +14,16 @@ export const Header = () => {
         <div className="navitems">
           <ul className="mainmenu">
             <li className="home">
-              <a href="#">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li className="projects">
-              <a href="#">PROJECTS</a>
+              <Link to="/projects">PROJECTS</Link>
             </li>
             <li className="about">
-              <a href="#">ABOUT</a>
+              <Link to="/projects">ABOUT</Link>
             </li>
             <li className="contacts">
-              <a href="#">CONTACTS</a>
+              <Link to="/projects">CONTACTS</Link>
             </li>
           </ul>
         </div>

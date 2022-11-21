@@ -25,7 +25,7 @@ export default function Todos() {
         <span>Todos</span>
       </div>
       {todos.map((todo) => {
-        return <Todoitem todo={todo} />;
+        return <Todoitem todo={todo} key={todo.sno} />;
       })}
     </>
   );
