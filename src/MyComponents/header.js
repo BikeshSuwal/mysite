@@ -20,10 +20,10 @@ export const Header = () => {
               <Link to="/projects">PROJECTS</Link>
             </li>
             <li className="about">
-              <Link to="/projects">ABOUT</Link>
+              <Link to="/about">ABOUT</Link>
             </li>
             <li className="contacts">
-              <Link to="/projects">CONTACTS</Link>
+              <Link to="/contacts">CONTACTS</Link>
             </li>
           </ul>
         </div>

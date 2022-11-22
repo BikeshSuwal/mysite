@@ -92,6 +92,12 @@ body {
     width: 30px;
     height: 25px;
 }
+
+.blank {
+    position: absolute;
+    display: block;
+    height: 100px;
+}
 @media (max-width: 900px) {
     .logobar {
         padding-left: 10%;

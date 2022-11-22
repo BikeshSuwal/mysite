@@ -1,6 +1,6 @@
 import React from "react";
-import TextConvert from "./TextConvert";
-import Todos from "./todos";
+import RandomPhotos from "./HomeBody/RandomPhotos";
+import Todos from "./HomeBody/todos";
 
 export default function Body() {
   return (
@@ -17,28 +17,11 @@ export default function Body() {
           </div>
         </div>
         <div>
-          {/* <div className="container">
-            <TextConvert />
-          </div> */}
           <div className="container">
             <Todos />
           </div>
-        </div>
-
-        <div className="gallery">
-          <div className="divtitle">
-            <span>Random Photos</span>
-          </div>
-          <div className="photos">
-            <a href="img1.jpg">
-              <img src="/img1.jpg" alt="" />
-            </a>
-            <a href="img2.jpg">
-              <img src="/img2.jpg" alt="" />
-            </a>
-            <a href="img3.jpg">
-              <img src="/img3.jpg" alt="" />
-            </a>
+          <div className="container">
+            <RandomPhotos />
           </div>
         </div>
       </div>
