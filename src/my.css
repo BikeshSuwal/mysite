@@ -91,6 +91,9 @@ body {
     justify-content: space-between;
     width: 30px;
     height: 25px;
+    background: none;
+    padding: 0;
+    border: none;
 }
 
 .blank {
@@ -323,8 +326,8 @@ body {
 }
 
 .container {
-    padding: 0 10%;
-    margin: 10px 0;
+    padding: 20px 10%;
+    margin: auto;
 }
 
 #myBox {
@@ -363,4 +366,8 @@ body {
     background: #1d5982;
     color: #ffffff;
         
+}
+input {
+    padding: 0;
+    border: none;
 }

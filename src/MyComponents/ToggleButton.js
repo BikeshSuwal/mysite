@@ -20,11 +20,11 @@ export default function ToggleButton() {
 
   return (
     <>
-      <a href="#" className="toggle-button" onClick={Toggle}>
+      <button href="#" className="toggle-button" onClick={Toggle}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
-      </a>
+      </button>
     </>
   );
 }

@@ -12,14 +12,12 @@ export default function TextConvert() {
     setText(newText);
   };
   const Cleartext = () => {
-    let newText = text.toLowerCase();
     setText("");
   };
 
   const handleOnChange = (event) => {
     setText(event.target.value);
   };
-  console.log(text);
 
   const [text, setText] = useState("");
   return (

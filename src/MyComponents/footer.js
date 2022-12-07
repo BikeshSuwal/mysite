@@ -13,18 +13,33 @@ export const Footer = () => {
             className="fa fa-facebook"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+            {null}
+          </a>
           <a
             href="https://www.snapchat.com/add/bksh_suwal9680?share_id=ciEpa0j6N4g&locale=en-US"
             className="fa fa-snapchat"
             target="_blank"
-          ></a>
-          <a href="#" className="fa fa-linkedin" target="_blank"></a>
+            rel="noopener noreferrer"
+          >
+            {null}
+          </a>
+          <a
+            href="#linkedin"
+            className="fa fa-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {null}
+          </a>
           <a
             href="https://www.instagram.com/bikesh677/?hl=en"
             className="fa fa-instagram"
             target="_blank"
-          ></a>
+            rel="noopener noreferrer"
+          >
+            {null}
+          </a>
         </div>
       </div>
     </>
