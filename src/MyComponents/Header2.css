@@ -1,0 +1,45 @@
+.navbar {
+    position: relative;
+    /* set the position property */
+}
+
+.logobar,
+.navitems {
+    flex: 1;
+}
+
+.toggle-button {
+    display: none;
+    /* hide toggle button by default */
+}
+
+@media (max-width: 700px) {
+
+    .logobar,
+    .navitems {
+        flex: none;
+        text-align: center;
+    }
+
+    .navitems {
+        display: none;
+        /* hide navigation items by default */
+    }
+
+    .toggle-button {
+        display: block;
+        /* show toggle button */
+    }
+}
+@media (max-width: 700px) {
+    .navbar {
+        position: fixed;
+        /* set the position to fixed */
+        top: 0;
+        /* set the top position to 0 */
+        width: 100%;
+        /* set the width to 100% to cover the full width of the screen */
+        z-index: 99;
+        /* set a high z-index to ensure the navbar is on top of other elements */
+    }
+}
