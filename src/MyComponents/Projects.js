@@ -7,12 +7,16 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <div>
+      <div className="navgap"></div>
       <div class="card-container">
         <div class="card">
-          <img src="project1.jpg" alt="Project 1" />
+          <img src="src/images/nepseData.png" alt="Project 1" />
           <div class="card-content">
-            <h2>Project 1</h2>
-            <p>A brief description of Project 1.</p>
+            <h2>NepseData</h2>
+            <p>
+              A tool to get the latest selected datas of companies listed in
+              Nepse
+            </p>
             <a href="#" class="card-link">
               View Project
             </a>

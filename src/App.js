@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header } from "./MyComponents/header";
+import { Header } from "./MyComponents/Header";
 import { Footer } from "./MyComponents/footer";
 import Body from "./MyComponents/HomeBody";
 import { Routes, Route } from "react-router-dom";

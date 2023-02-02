@@ -5,13 +5,14 @@ import Todos from "./HomeBody/todos";
 export default function Body() {
   return (
     <>
+      <div className="navgap"></div>
       <div className="front">
         <div className="front-text">
           <div className="words">
             <div className="maintext">
               <span className="maintext1">Hello, I am</span>
               <br />
-              <span className="maintext2">BIKESH SUWAL</span>
+              <h1 className="maintext2">BIKESH</h1>
             </div>
             <span className="subtext">trying to make my website</span>
           </div>
