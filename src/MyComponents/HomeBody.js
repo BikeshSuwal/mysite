@@ -12,17 +12,19 @@ export default function Body() {
             <div className="maintext">
               <span className="maintext1">Hello, I am</span>
               <br />
-              <h1 className="maintext2">BIKESH</h1>
+              <h1 className="maintext2">Bikesh</h1>
             </div>
             <span className="subtext">trying to make my website</span>
           </div>
         </div>
         <div>
-          <div className="container">
+          {/* <div className="container">
             <Todos />
-          </div>
-          <div className="container">
-            <RandomPhotos />
+          </div> */}
+          <div className="full">
+            <div className="container">
+              <RandomPhotos />
+            </div>
           </div>
         </div>
       </div>

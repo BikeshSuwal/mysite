@@ -8,40 +8,75 @@ export default function Projects() {
   return (
     <div>
       <div className="navgap"></div>
-      <div class="card-container">
-        <div class="card">
-          <img src="src/images/nepseData.png" alt="Project 1" />
-          <div class="card-content">
-            <h2>NepseData</h2>
-            <p>
-              A tool to get the latest selected datas of companies listed in
-              Nepse
-            </p>
-            <a href="#" class="card-link">
-              View Project
-            </a>
+      <div className="card-container">
+        <div className="card">
+          <div className="flip-card-inner">
+            <div className="card-content-front">
+              <img src="nepseData.png" alt="Project 1" />
+              <h2>NepseData</h2>
+              <p className="padding-5">
+                A tool to get the latest selected datas of companies listed in
+                Nepse
+              </p>
+            </div>
+            <div className="card-content-back">
+              <a
+                href="https://github.com/BikeshSuwal/nepseData.git"
+                target="_blank"
+                class="card-link"
+              >
+                Github link
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="project2.jpg" alt="Project 2" />
-          <div class="card-content">
-            <h2>Project 2</h2>
-            <p>A brief description of Project 2.</p>
-            <a href="#" class="card-link">
-              View Project
-            </a>
+        <div className="card">
+          <div className="flip-card-inner">
+            <div className="card-content-front">
+              <img src="timeline.png" alt="Project 2" />
+              <h2>Timeline</h2>
+              <p className="padding-5">
+                An intuitive way to display historical events, milestones, or
+                any other type of event that occurs over time
+              </p>
+            </div>
+            <div className="card-content-back">
+              <a
+                href="https://github.com/BikeshSuwal/nepseData.git"
+                target="_blank"
+                class="card-link"
+              >
+                Github link
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card">
+
+        {/* <div className="card">
+          <div className="flip-card-inner">
+            <img src="timeline.png" alt="Project 2" />
+            <div className="card-content">
+              <h2>Timeline</h2>
+              <p>
+                An intuitive way to display historical events, milestones, or
+                any other type of event that occurs over time
+              </p>
+              <a href="#" className="card-link">
+                &lt;&gt; View Project &lt;/&gt;
+              </a>
+            </div>
+          </div>
+        </div> */}
+        {/* <div class="card">
           <img src="project2.jpg" alt="Project 3" />
           <div class="card-content">
             <h2>Project 3</h2>
             <p>A brief description of Project 3.</p>
             <a href="#" class="card-link">
-              View Project
+              &lt;&gt; View Project &lt;/&gt;
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="container">
         <TextConvert />

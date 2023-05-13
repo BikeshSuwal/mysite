@@ -1,18 +1,22 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #2b2b2b;
+    background-color: none;
     color: #ffffff;
     box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/bg.jpg');
+    background-size: contain;
+    background-position: left top;
+    
 }
 
 
 .navgap {
-    height: 130px;
+    height: 150px;
 }
 @media (max-width: 700px) {
     .navgap {
-            height: 80px;
+            height: 100px;
         }
 }
 
@@ -21,6 +25,7 @@ body {
 
 
 .front {
+    
     padding-top: 10px;
     /* overflow: hidden; */
 }
@@ -59,13 +64,15 @@ body {
 } */
 .maintext2 {
     margin: auto;
-    font-size: 50px;
-    font-weight: bold;
-    color: #ff004f;
+    font-size: 70px;
+    font-weight:bold;
+    /* font-family: "Sofia", sans-serif; */
+    font-family: 'Niconne', cursive;
+    color: #fc115b;
     white-space: nowrap;
     overflow: hidden;
     width: 190px;
-    animation: type 2s steps(20, end) forwards;
+    animation: type 1.5s backwards linear;
 }
 
 @keyframes type {
@@ -91,14 +98,19 @@ body {
 .gallery {
     padding: 30px 0px;
     overflow: hidden;
+    
 }
-
+.full{
+    background: linear-gradient(rgb(0, 128, 128, 0.5), rgb(0, 128, 128, 0.5));
+    margin: 2em 0;
+}
 .divtitle {
     text-align: center;
     font-size: 30px;
     position: relative;
     padding: 10px 0px;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .divtitle span {

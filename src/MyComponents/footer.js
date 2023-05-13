@@ -9,7 +9,7 @@ export const Footer = () => {
         </div>
         <div className="sociallinks">
           <a
-            href="https://www.facebook.com/bksh.suwal/"
+            href="https://www.facebook.com/profile.php?id=100086284251376"
             className="fa fa-facebook"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@ export const Footer = () => {
             {null}
           </a>
           <a
-            href="#linkedin"
+            href="https://www.linkedin.com/in/bikesh-suwal-7aa2b2174/"
             className="fa fa-linkedin"
             target="_blank"
             rel="noopener noreferrer"
