@@ -3,10 +3,15 @@ import Calculator from "./Projects/Calculator";
 import Counter from "./Projects/Counter";
 import TextConvert from "./Projects/TextConvert";
 import "./Projects.css";
-
+import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <div>
+      <button className="backButton ">
+      <Link className="backButtonLink" to="/">
+      &laquo; Back home
+              </Link>
+      </button>
       <div className="navgap"></div>
       <div className="card-container">
         <div className="card">

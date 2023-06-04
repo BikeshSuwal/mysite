@@ -1,31 +1,55 @@
-.textcontainer {
-    width: 50%;
-    text-align: center;
-    padding: 20px 10%;
-        margin: auto;
-}
-@media (max-width: 700px) {
-    .textcontainer {
-        width: 80%;
-    }
-}
-.headline {
-    position: relative;
-        padding: 5px;
+:root {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
-.headline::after {
-    content: '';
-    height: 3px;
-    width: 50%;
-    background: #ff004f;
-    position: absolute;
-    left: 0%;
-    bottom: -3px;
-    transition: 0.3s;
-    transform: translateX(50%);
 
+
+.fullh {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
 }
-/* .aboutbody {
-    font-family: 'Niconne', cursive;
-} */
+
+
+
+.backButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: inline-flex;
+    
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 10%;
+    padding: .25em;
+    width: 80px;
+    height: 20px;
+    background-color: #fc115b;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    transition: transform .2s;
+}
+
+.backButtonLink {
+    color: #ffffff;
+    /* margin: 20px; */
+    font-size: 1.2rem;
+    /* border: 2px solid rgba(0, 0, 0, 0.5); */
+    text-decoration: none;
+    
+  }
+  
+  .backButton:hover {
+    transform: scale(1.2);
+  }
