@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { Header } from "./Header";
+//import { Header } from "./header";
 import Body from "./HomeBody";
 import { Link } from "react-router-dom";
 
