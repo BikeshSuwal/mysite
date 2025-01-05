@@ -64,11 +64,11 @@ export const Header = () => {
                 ABOUT
               </Link>
             </li>
-            <li className="contacts">
+            {/* <li className="contacts">
               <Link to="/contacts" onClick={Toggle}>
                 CONTACTS
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <button href="#" className="toggle-button" onClick={Toggle}>

@@ -31,7 +31,7 @@ export default function Body() {
         </div>
       </div>
       <div className="mainblock">
-        <div className="whatIdo blockContainer bgGreen">
+        <div className="whatIdo blockContainer bgBlue">
           <span className="maintext1">What I do?</span>
                 <br />
           <span className="maintext3">Whatever makes me happy,</span>
@@ -48,18 +48,41 @@ export default function Body() {
         </div>
       </div>
       <div className="mainblock">
-        <div className="contact blockContainer">
+        <div className="contact blockContainer bgPurple">
           <span className="maintext1">Let's Connect</span>
                 <br />
-          <span className="maintext3">bikeshsuwal776@gmail.com</span>
+          <span className="maintext3">bikeshsuwal776@gmail.com
+            <a href="mailto:bikeshsuwal776@gmail.com" className="mailIcon">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </a>
+
+          </span>
+          <div className="socialLinks"><a href="https://www.facebook.com/profile.php?id=100086284251376" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/bikesh-suwal-7aa2b2174/" class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://www.instagram.com/bikesh677/?hl=en" class="fa fa-instagram" target="_blank"></a>
+          </div>
+          
+          
 
         </div>
       </div>
-      {/* <div className="full belowbox" id="belowbox1">
-            <div className="container">
-              <RandomPhotos />
-            </div>
-          </div> */}
+      <div className="mainblock">
+        <div className="whatIdo blockContainer bgGreen">
+          {/* <span className="maintext1">What I do?</span> */}
+                <br />
+          <span className="maintext3">Designed and developed by BIKESH SUWAL</span>
+          {/* <span>and is legal.</span> */}
+          <div className="maintext3 margin-60">
+            <span>*This site is still under construction*</span>
+            {/* <button className="projectsButton">
+              <Link className="projectsLink " to="/projects">
+                Projects
+              </Link>
+          </button> */}
+          </div>
+          
+        </div>
+      </div>
     </>
   );
 }

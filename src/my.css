@@ -123,7 +123,19 @@ body {
 }
 
 .bgGreen {
-     background: linear-gradient(rgb(0, 128, 128, 0.5), rgb(0, 128, 128, 0.5));
+     background: linear-gradient(rgb(7, 88, 88, 0.5), rgb(0, 128, 128, 0.5));
+}
+
+.bgBlue {
+    background: linear-gradient(rgb(18, 132, 164, 0.5),  rgb(25, 167, 206, 0.5));
+}
+
+.bgPurple {
+    background: linear-gradient(rgb(36, 124, 196, 0.5),  rgb(48, 162, 255, 0.5));
+}
+
+.bgBrown {
+    background: linear-gradient(rgb(181, 111, 84),  rgb(234, 144, 108, 0.5));
 }
 
 .blockContainer {
@@ -158,6 +170,40 @@ body {
   .projectsButton:hover {
     transform: scale(1.2);
   }
+
+.socialLinks {
+    display: flex;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa {
+    /* padding: 20px; */
+    font-size: 20px;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    
+    /* margin: 5px 80px; */
+}
+
 
 
   .backButton {

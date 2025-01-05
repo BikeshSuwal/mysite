@@ -14,6 +14,46 @@ export default function Projects() {
       </button>
       <div className="navgap"></div>
       <div className="card-container">
+      <div className="card">
+          <div className="flip-card-inner">
+            <div className="card-content-front">
+              <img src="stock-chart.png" alt="Project 1" />
+              <h2>stock-chart</h2>
+              <p className="padding-5">
+                Candlestick chart of IBM Common Stock Price (Daily)
+              </p>
+            </div>
+            <div className="card-content-back">
+              <a
+                href="https://bikeshsuwal.github.io/stock-chart/"
+                target="_blank"
+                class="card-link"
+              >
+                Website 
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="flip-card-inner">
+            <div className="card-content-front">
+              <img src="weatherApp.png" alt="Project 1" />
+              <h2>weatherApp</h2>
+              <p className="padding-5">
+                A simple realtime weather app
+              </p>
+            </div>
+            <div className="card-content-back">
+              <a
+                href="https://bikeshsuwal.github.io/weatherApp/"
+                target="_blank"
+                class="card-link"
+              >
+                Website 
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="card">
           <div className="flip-card-inner">
             <div className="card-content-front">
@@ -55,7 +95,9 @@ export default function Projects() {
               </a>
             </div>
           </div>
+          
         </div>
+        
 
         {/* <div className="card">
           <div className="flip-card-inner">
