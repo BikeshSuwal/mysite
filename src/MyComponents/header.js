@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 // import ToggleButton from "./ToggleButton";
-//check
 
 export const Header = () => {
   const Toggle = () => {
